@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Mascotas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form class="pet-form">
+        <h1>Registro de Mascotas</h1>
+        
+        <div class="form-field">
+            <label>Nombre de la Mascota:</label>
+            <input type="text">
+        </div>
+        
+        <div class="form-field">
+            <label>Especie:</label>
+            <select>
+                <option selected disabled>Seleccione una especie</option>
+            </select>
+        </div>
+        
+        <div class="form-field">
+            <label>Raza:</label>
+            <input type="text">
+        </div>
+        
+        <div class="form-field">
+            <label>Género:</label>
+            <div class="radio-group">
+                <label>
+                    <input type="radio" name="gender" checked>
+                    Macho
+                </label>
+                <label>
+                    <input type="radio" name="gender">
+                    Hembra
+                </label>
+            </div>
+        </div>
+        
+        <div class="form-field">
+            <label>Edad (años):</label>
+            <input type="text">
+        </div>
+        
+        <div class="form-field">
+            <label>Observaciones:</label>
+            <textarea></textarea>
+        </div>
+        
+        <button type="submit">Registrar</button>
+    </form>
+</body>
+</html>
